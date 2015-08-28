@@ -1,0 +1,1 @@
+var all=$("#plunder_list tr .farm_icon_c"),time=400;$.each(all,function(i,t){setTimeout(function(){$(t).click()},time),time+=400})
